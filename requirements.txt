@@ -1,0 +1,9 @@
+
+numpy
+scipy
+matplotlib
+opencv-python
+pywavelets
+tensorflow==2.15
+tqdm
+scikit-learn
