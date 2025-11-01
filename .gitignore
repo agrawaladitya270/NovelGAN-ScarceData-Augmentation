@@ -1,13 +1,18 @@
-# Python
 __pycache__/
+.ipynb_checkpoints/
 *.pyc
+*.pyo
+*.zip
+*.log
 
-# Data (generated)
+# generated data
 src/data/raw/
 src/data/processed/
+*.npy
 
-# Notebooks checkpoints
-.ipynb_checkpoints/
+# large results
+results/model_checkpoints/
+results/generated_samples/
 
-# Colab
-*.zip
+# colab/temp
+*.ipynb_save
