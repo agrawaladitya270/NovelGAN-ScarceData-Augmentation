@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data (generated)
+src/data/raw/
+src/data/processed/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Colab
+*.zip
