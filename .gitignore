@@ -1,22 +1,8 @@
-__pycache__/
-.ipynb_checkpoints/
-*.pyc
-*.pyo
-*.zip
-*.log
-
-# removed code folders
-src/
-models/
-gan_models/
-
-# temp & generated data
-data/raw/
-data/processed/
-*.npy
+data/
+datasets/
+results/
+*.ipynb_checkpoints/
 *.pt
-*.h5
-
-# large result files
-results/model_checkpoints/
-results/generated_samples/
+*.pth
+*.ckpt
+.DS_Store
