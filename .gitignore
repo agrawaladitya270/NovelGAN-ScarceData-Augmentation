@@ -5,14 +5,18 @@ __pycache__/
 *.zip
 *.log
 
-# generated data
-src/data/raw/
-src/data/processed/
-*.npy
+# removed code folders
+src/
+models/
+gan_models/
 
-# large results
+# temp & generated data
+data/raw/
+data/processed/
+*.npy
+*.pt
+*.h5
+
+# large result files
 results/model_checkpoints/
 results/generated_samples/
-
-# colab/temp
-*.ipynb_save
