@@ -2,7 +2,7 @@
 
 **Generative Adversarial Networks (GANs) for Anime Face Synthesis**
 
-This project explores multiple GAN architectures — **DCGAN**, **SAGAN**, and a **Custom GAN variant** — trained on anime face datasets. Each model is implemented and trained in standalone Jupyter notebooks (Colab-ready), using Google Drive for data access instead of storing datasets in the repository.
+This project explores multiple GAN architectures — **DCGAN**, **SAGAN** — trained on anime face datasets. Each model is implemented and trained in standalone Jupyter notebooks (Colab-ready), using Google Drive for data access instead of storing datasets in the repository.
 
 ---
 
@@ -12,7 +12,6 @@ This project explores multiple GAN architectures — **DCGAN**, **SAGAN**, and a
 |:------|:-------------|:----------|:-----------|
 | **DCGAN** | Deep Convolutional GAN | Baseline convolutional generator–discriminator pair | `01_dcgan_anime.ipynb` |
 | **SAGAN** | Self-Attention GAN | Adds attention layers for long-range feature modeling | `02_sagan_anime.ipynb` |
-| **Custom GAN** | Novel variant inspired by research | Incorporates adaptive normalization and perceptual loss | `03_custom_gan_anime.ipynb` |
 
 ---
 
@@ -31,8 +30,7 @@ This project explores multiple GAN architectures — **DCGAN**, **SAGAN**, and a
 anime-gan-project/
 ├── notebooks/
 │   ├── 01_dcgan_anime.ipynb
-│   ├── 02_sagan_anime.ipynb
-│   └── 03_custom_gan_anime.ipynb
+│   └── 02_sagan_anime.ipynb
 ├── results/       
 ├── README.md
 ├── requirements.txt
